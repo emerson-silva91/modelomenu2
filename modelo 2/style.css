@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+header{
+    width:100%;
+    background-color: rgb(255, 3, 3);
+}
+.top-header > .interface{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-header{
+    background-color: white;
+    padding: 20px 4%;
+}
+.top-header .logotipo img{
+    max-width: 100px;
+    position: relative;
+}
+
+.top-header .social button{
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(white red);
+    background-color: transparent;
+    border-radius: 20px;
+    border:1px solid red;
+    cursor: pointer;
+    color: red;
+}
+.bottom-header nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+
+}
+.bottom-header nav ul li a{
+    color:white;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    transition: 0.3s;
+}
+.bottom-header nav ul li a:hover{
+    background-color: white;
+    color:red;
+    box-shadow: inset 0 0 10px red;
+}
+.drop-hover{
+    position: relative;
+}
+.drop-hover .drop{
+    position: absolute;
+    background-color: red;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.drop-hover:hover .drop{
+    height: 209px;
+
+}
+.drop-hoverxp{
+    position: relative;
+}
+.drop-hoverxp .dropxp{
+    position: absolute;
+    background-color: red;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.drop-hoverxp:hover .dropxp{
+    height: 209px;
+
+}
+.drop-hoverFDD{
+    position: relative;
+}
+.drop-hoverFDD .dropFDD{
+    position: absolute;
+    background-color: red;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.drop-hoverFDD:hover .dropFDD{
+    height: 209px;
+
+}
+
+.drop-hoverCR{
+    position: relative;
+}
+.drop-hoverCR .dropCR{
+    position: absolute;
+    background-color: red;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.drop-hoverCR:hover .dropCR{
+    height: 209px;
+
+}
+.drop-hoverMSF{
+    position: relative;
+}
+.drop-hoverMSF .dropMSF{
+    position: absolute;
+    background-color: red;
+    height: 0;
+    overflow: hidden;
+    transition: .2s;
+}
+.drop-hoverMSF:hover .dropMSF{
+    height: 209px;
+
+}
